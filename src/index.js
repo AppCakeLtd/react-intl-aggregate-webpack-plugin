@@ -16,8 +16,8 @@ ReactIntlAggregatePlugin.prototype.apply = function (compiler) {
                             'en-US';
 
   compiler.plugin('emit', function (compilation, callback) {
-    const MESSAGES_PATTERN = path.resolve(__dirname, messagesPattern);
-    const AGGREGATE_DIR    = path.resolve(__dirname, aggregateOutputDir);
+    const MESSAGES_PATTERN = messagesPattern;
+    const AGGREGATE_DIR    = aggregateOutputDir;
     const AGGREGATE_FILE   = path.resolve(AGGREGATE_DIR, aggregateFilename +
                               '.json');
 
