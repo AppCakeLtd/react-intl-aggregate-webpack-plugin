@@ -12,11 +12,9 @@
     "build": "babel src/ --out-dir ./",
     "postinstall": "babel src/ --out-dir ./"
   },
-  "devDependencies": {
+  "dependencies": {
+    "mkdirp": "^0.5.1",
     "babel-cli": "^6.10.1",
     "babel-preset-es2015": "^6.9.0"
-  },
-  "dependencies": {
-    "mkdirp": "^0.5.1"
   }
 }
