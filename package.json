@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "babel src/ --out-dir ./",
-    "postinstall": "babel ./node_modules/react-intl-aggregate-webpack-plugin/src/ --out-dir ./node_modules/react-intl-aggregate-webpack-plugin/"
+    "postinstall": "babel ./src/ --out-dir ./"
   },
   "dependencies": {
     "mkdirp": "^0.5.1",
